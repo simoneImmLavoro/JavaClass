@@ -1,0 +1,29 @@
+
+public class Main {
+	public static void main(String[] args) {
+	
+		//le FUNZIONI (o METODI)
+		//Si inseriscono FUORI dalla MAIN dove abbiamo lavorato fin'ora
+		
+		//come in js le funzioni si richiamano con nomeFunzione(), proviamo a richiamare la nostra funzione qui in main
+		
+		faiPasta();
+		preparaPranzo("Spaghetti");
+	}
+	
+	//Si inserisce il tipo della funzione
+	//void è legato al valore di ritorno, una funzione void non ha RETURN
+	
+	static void faiPasta() {
+		System.out.println("Sto facendo la pasta");
+	}
+	
+	//Metodi con PARAMETRI
+	//sempre necessario DICHIARARE IL TIPO del parametro
+	static void preparaPranzo(String cibo) {
+		System.out.println("Sto cucinando " + cibo);
+	}
+	
+
+	
+}

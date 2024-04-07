@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//stesso concetto di js stessa sintassi
+		
+		int i = 0;
+		
+		while(i <0) {
+			System.out.println("while " + i);
+			i++;
+		}
+		
+		do {
+			System.out.println("do while " + i);
+			i++;
+		} while (i < 0);
+	}
+
+}

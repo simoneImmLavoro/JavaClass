@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//metodi delle stringhe
+		
+		String nome = "Francioschio";
+		
+		//EQUALS ci rende un boolean E' CASE SENSITIVE
+		//boolean risultato = nome.equals("Gino");
+		
+		//EQUALSIGNORECASE ignora maiuscole e minuscole
+		//boolean risultato = nome.equalsIgnoreCase("FRANCIOschio");
+		
+		//LENGTH ci restituisce la lunghezza
+		int risultato = nome.length();
+		
+		System.out.println(risultato);
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+
+public class Main {
+	public static void main(String[] args) {
+		//La programmazione ad oggetti (come sappiamo, praticamente descrivere il mondo reale in informatica)
+		//in JAVA andiamo a creare un nuovo "file" classe a cui diamo il nome della classe che vogliamo (tipo in js ma su file), il FILE PRENDE IL NOME DELLA CLASSE
+		//JAVA è completamente orientato agli oggetti, essendo tutto fatto per l'appunto di classi non esistono funzioni ma solo metodi
+		//la classe non è altro che uno stampino con cui andiamo a riprodurre quel disegno su più fogli
+		//i metodi sono azioni che una classe può compiere, gli attributi sono le caratteristiche della classe
+		
+		
+		//per richiamare una classe bisogna creare un OGGETTO ovvero un'ISTANZA della classe (una sorta di copia utilizzabile)
+		
+		//come in ts la classe diventa il TIPO da utilizzare che verrà assocuato ad una variabile che ne conterrà un'istanza
+		
+		Persona persona1 = new Persona();
+		
+		//anche le reference possono essere pensate come classi
+		
+		//uan volta creata l'istanza della classe possiamo liberamente richiamarne i METODI e gli ATTRIBUTI
+		System.out.println("Ciao sono " + persona1.nome);
+		persona1.cammina();
+		
+		//se creiamo un'altra istanza sarà si un'istanza della stessa classe ma sarà COMPLETAMENTE AUTONOMA
+		//ovviamente se si andasse a modificare la classe base entrambe riporterebbero la modifica
+		Persona persona2 = new Persona();
+	}
+}

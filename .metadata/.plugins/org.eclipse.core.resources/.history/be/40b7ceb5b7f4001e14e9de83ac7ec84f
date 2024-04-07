@@ -1,0 +1,49 @@
+import java.util.Iterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//WHILE e DO WHILE stesso concetto di js stessa sintassi
+		
+		/*int i = 0;
+		
+		while(i <0) {
+			System.out.println("while " + i);
+			i++;
+		}
+		
+		do {
+			System.out.println("do while " + i);
+			i++;
+		} while (i < 0);*/
+		
+		//CICLI FOR tutto uguale praticamente, FOREACH anzichè trattarli come un metodo (.forEach(param =>) si scrivono come un  for(singolaCosa : gruppoDiCose), brake e continue
+		
+		/*for(int i=0; i <= 5; i++) {
+			System.out.println(i);
+		}*/
+		
+		/*for(int i=0; i <= 3; i++) {
+			System.out.println("I" + i);
+			for(int j=0; j <= 2; j++) {
+				System.out.println("J" + j);
+			}
+		}*/
+		
+		/* int[] numeri = {10, 20, 30, 40, 50};
+		for(int numero: numeri){
+			System.out.println(numero+1);
+		} */
+		
+		for(int i=0; i <= 5; i++) {
+			if(i == 4) {
+				break;
+			}
+			System.out.println(i);
+		}
+		
+	}
+
+}

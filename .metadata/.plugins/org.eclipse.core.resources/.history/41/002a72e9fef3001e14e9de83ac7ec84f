@@ -1,0 +1,22 @@
+
+//importare scanner
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Come ti Chiami?");
+		String nomeString = scanner.nextLine();
+		System.out.println("Ciao " + nomeString + "!");
+		System.out.println();
+		
+		System.out.println("Quanti anni hai?");
+		int eta = scanner.nextInt();
+		System.out.println();
+		System.out.println("Quindi sei " + nomeString + " e hai " + eta + " anni");
+	}
+
+}

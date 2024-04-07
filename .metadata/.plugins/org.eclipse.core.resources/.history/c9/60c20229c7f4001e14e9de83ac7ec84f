@@ -1,0 +1,43 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//metodi delle stringhe
+		
+		String nome = "Francioschio";
+		
+		//EQUALS ci rende un boolean E' CASE SENSITIVE
+		//boolean risultato = nome.equals("Gino");
+		
+		//EQUALSIGNORECASE ignora maiuscole e minuscole
+		//boolean risultato = nome.equalsIgnoreCase("FRANCIOschio");
+		
+		//LENGTH ci restituisce la lunghezza
+		//int risultato = nome.length();
+		
+		//CHARAT ci rende il char ad un dato index
+		//char risultato = nome.charAt(6);
+		
+		//INDEXOF ci restituisce l'index di un dato SUBSTRING (della prima occorrenza)
+		//int risultato = nome.indexOf("cio");
+		
+		//ISEMPTY ci dice se è vuota ( == "");
+		//boolean risultato = nome.isEmpty();
+		
+		//TOUPPERCASE e TOLOWER case solito metodo anche di js
+		//String risultato = nome.toLowerCase();
+		//String risultato = nome.toUpperCase();
+		
+		//TRIM elimina gli spazi bianchi
+		//String risultato = nome.trim();
+		
+		//REPLACE sostituisce una substring con un'altra
+		String risultato = nome.replace(ci, ri);
+		
+		System.out.println(risultato);
+		
+	}
+
+}

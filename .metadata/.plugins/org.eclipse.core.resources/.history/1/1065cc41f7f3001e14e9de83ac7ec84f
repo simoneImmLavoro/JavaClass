@@ -1,0 +1,41 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*System.out.print("ciao da main");
+		System.out.print(" ciao da seconda riga");
+		System.out.println();
+		System.out.println("se dopo break va su nuova riga e manda anche la prossima");
+		System.out.print("questo è con l'escape slash n \n");
+		
+		int x;
+		x = 45;
+		
+		String y = "questa è una stringa";
+		double w = 9.56;
+		String nome = "Luca";
+		
+		System.out.println(x);
+		
+		x = x*2;
+		
+		System.out.print(x);*/
+
+		boolean ilBoolean = true; //false
+		byte ilByte = 127; //-128
+		short loShort = -32768; //32767
+		int ilInt = -2_147_483_648; // miliardi circa fino a +2miliardi circa +2147483648 (puoi usare underscore _ )
+		long ilLong = -9_223_372_036_854_775_808L; // +9223372036854775807L - L obbligatoria
+		float ilFloat = 5.34562444f; // con 6-7 decimali, f obbligatoria
+		double ilDouble = 6.23423534523523; //con 15 decimali
+		char ilChar =  'g'; //usare SINGOLO APICE, doppio apice è una stringa
+		String laStringa = "Sono una stringa"; //stringa, usare doppi apici, insieme di char, è una reference, si porta anche metodi complessi
+		
+		
+		
+		System.out.println(laStringa.toUpperCase());
+	}
+	
+
+}

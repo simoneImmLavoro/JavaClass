@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//metodi delle stringhe
+		
+		String nome = "Francioschio";
+		
+		//EQUALS ci rende un boolean E' CASE SENSITIVE
+		//boolean risultato = nome.equals("Gino");
+		
+		//EQUALSIGNORECASE
+		boolean risultato = nome.equals("FRANCIOschio");
+		
+		System.out.println(risultato);
+		
+	}
+
+}

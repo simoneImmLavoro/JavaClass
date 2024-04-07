@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("ciao da main");
+		System.out.print(" ciao da seconda riga");
+		System.out.println();
+		System.out.println("se dopo break va su nuova riga e manda anche la prossima");
+		System.out.print("questo è con l'escape slash n \n");
+		
+		int x;
+		x = 45;
+		
+		String y = "questa è una stringa";
+		double w = 9.56;
+		
+		System.out.print(x + x);
+
+	}
+		
+}

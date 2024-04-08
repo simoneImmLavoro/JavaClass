@@ -1,0 +1,17 @@
+
+public class Main {
+	public static void main(String[] args) {
+		//lo SCOPE di una variabile è "il raggio di azione" in cui una variabile è disponibile nel codice
+		//se lo scope di una variabile è LOCALE non sarà accessibile all'esterno, se è GLOBALE vuol dire che viene definita FUORI DAI METODI il che le rende accessibili da OVUNQUE ALL'INTERNO DI UNA CLASSE
+		
+		//Prendendo l'esempio di una classe LAVORATORE contenente dei metodi, facciamo notare come il metodo possa accedere liberamente alla variabile globale (eta, qui usata come numero) contenuta nel suo costruttore
+		
+		Lavoratore lavoratore1 = new Lavoratore("Giorgio", "Giorgi", 27, "Arancione");
+		
+		lavoratore1.cammina();
+		
+		lavoratore1.addizione(5, 7);
+		
+	}
+	
+}

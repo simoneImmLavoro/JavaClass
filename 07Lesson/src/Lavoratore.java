@@ -47,5 +47,17 @@ public class Lavoratore {
 	void variabileTest(int risultato) {
 		System.out.println("Il risultato è " + risultato);
 	}
+	
+	//Creiamo qui il nostro metodo personalizzato per ottenere una stringa descrittiva
+	//il metodo viene contrassegnato come public
+	
+	//abbiamo quindi fatto un override
+	
+	public String toString() {
+		String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n" + this.colorePreferito;
+		//ovviamente necessita di un return
+		
+		return stringa;
+	}
 
 }

@@ -1,6 +1,7 @@
 package com.ProjectAPI.APIRestUsers.entity;
 
 //aggiungere nuovo user, fare login, prendere il token e passarlo come auth bearer token in postman poi procedere normalmente
+//https://asecuritysite.com/encryption/plain per la 256bit key
 
 
 import jakarta.persistence.*;
